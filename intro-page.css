@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://images.app.goo.gl/ttNHVAA7whemWKHM6);
+    /* background-image: url(https://images.app.goo.gl/ttNHVAA7whemWKHM6); */
     background-size:cover;
 }
 header {
@@ -102,4 +102,10 @@ header {
     left: 470px;
     top: 305px;
     font-size: 17px;
+}
+
+#image{
+    position: fixed;
+    height: 840px;
+    width: 1450px;
 }
