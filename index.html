@@ -11,14 +11,19 @@
         scroll-behavior:smooth;
      }
     </style>
+   
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+    crossorigin="anonymous"></script>
+   
+    <script src="index.js" ></script>
 </head>
 <body>
 <section>
     <br><br><br><br><br><br>
-    <div class="combine1">
+    <div class="combine1" >
         
         <img style=" width:60%; height:50%;" alt="cybernauts image" src="Cybernauts Image.jpeg"/>
-        <p style="color:rgb(71, 158, 235); font-family: fantasy;font-size: 30px;">CYBERNAUTS</p>
+         <p style="color:rgb(71, 158, 235); font-family: fantasy;font-size: 30px;" >CYBERNAUTS</p>
     <div class="upper">
         <a style="color:rgb(255, 255, 255); text-decoration: none;" href="#login11">LOGIN&nbsp;</a>
        
@@ -27,7 +32,7 @@
     <div class="bottom">
       <h5 id="creators">Team Members</h5>
         <ol>
-          <li>Saanvi</li>
+          <li>Saanvi Bansal</li>
           <li>Yaten Arora</li>
           <li>Ritik Bansal</li>
         </ol>
@@ -49,13 +54,15 @@
         <br>
         <label for="email">Email</label>
         <br>
-        <input style="border-radius: 20px; height:20px;" type="email" id="email" placeholder="Type Here" required/>
+        <input style="border-radius: 20px; padding: 1%; height:20px;" type="email" id="txtemail" placeholder="Type Here" required/>
+        <span id="erremail" style="font-size: 15px;">*</span>
         <br>
         <label for="password">Password</label>
         <br>
-        
-        <input style="border-radius: 20px; height:20px;" type="password" id="password" placeholder="Type Here" required/>
-        <i class="fa-solid fa-eye" style="size: 2ch;"></i>
+        <input style="border-radius: 20px; height:20px; padding: 1%;" type="password" id="txtpass" placeholder="Type Here" required/>
+        <i class="fa-solid fa-eye fa-beat" style="size: 2ch;"></i>
+        <br>
+        <span id="errpass" style="font-size: 15px;">*</span>
         <br>
         <div class="button1">
         <input type="Submit" value="Submit"style="font-size: 20px;
@@ -93,9 +100,10 @@
             <br>
             <input style="border-radius: 20px; height:30px;"  type="text" id="username" placeholder="Type Here" required>
             <br>
-            <label for="email">Email</label>
+            <label  for="email">Email</label>
+            <span id="erremaill">*</span>
             <br>
-            <input style="border-radius: 20px; height:30px;" type="email" id="email"  placeholder="Type Here"required>
+            <input style="border-radius: 20px; height:30px;" type="email" id="txtemaill"  placeholder="Type Here"required>
             <br>
             <label for="password">Password</label>
             <br>
